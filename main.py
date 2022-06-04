@@ -9,7 +9,7 @@ if __name__ == "__main__":
                     duration data_type INTEGER , 
                     celltower data_type INTEGER);''') 
 
-  with open('C:/Users/knezf/Desktop/IO/GIT/10_bazy_danych_1-FrankSpinachi/polaczenia_duze.csv','r') as fin: 
+  with open('polaczenia_duze.csv','r') as fin: 
       reader = csv.reader(fin, delimiter = ";") 
       next(reader, None)
       rows = [x for x in reader]
